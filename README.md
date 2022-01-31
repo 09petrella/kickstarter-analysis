@@ -9,10 +9,10 @@ A continuation on our analysis of Kickstarter Data to help Louise plan a success
 
 ### Analysis of Outcomes Based on Launch Date
 For the analysis of campaign outcomes based on their launch dates, we began by building a pivot table. We set the pivot table up to filter by parent category in order to specify which type of kickstarter campaigns we can research and also by year for the capability to check and see if there are trends over the data population's time period. For the rows criteria we chose the Date which the kickstarters began separated by months, then had our columns designate the outcome for each of the kickstarts. The values for the table were the count of the kickstarter's outcome. The following graph helps illustrate the results from the pivot table's criteria. Filtered specifically for Theater kickstarts, this shows the count of each campaign's outcome based on the month which they began fundraising. 
-![Theater Outcomes Based on Launch Date] (resources/Theater_Outcomes_vs_Launch.png)
+![Theater Outcomes Based on Launch Date](resources/Theater_Outcomes_vs_Launch.png)
 ### Analysis of Outcomes Based on Goals
 For the analysis of campaign outcomes based on their goals, we started by creating logical tiers to separate campaign goals found in the data population. To incorporate the outcome we determined the count for each possible outcome separated by the tiers of campaign goals. To help Louise research for her own campaign, we filtered this data to show results only for the play subcategory. To display our findings we calculated percentages for each potential outcome based on the total amount of projects and separated by the goal tiers. The following graph illustrates the observed percentages for Plays kickstarters outcome based on their goal set for fundraising. 
-![Plays Outcomes Based on Goal] (resources/Outcomes_vs_Goals.png)
+![Plays Outcomes Based on Goal](resources/Outcomes_vs_Goals.png)
 ### Challenges and Difficulties Encountered
 A potential challenge that could be encountered is trying to determine the criteria needed to be considered a valid kickstarter fundraising campaign. For instance, does the fundraising need to last a certain amount of days. Another challenge are the outside factors which can influence the outcome for each kickstarter datapoint. For example, if a campaign has a high level of popularity then it is more likely to receive donations, and the opposite can occur for campaigns that either do not have a backing or are unpopular to begin with. 
 
