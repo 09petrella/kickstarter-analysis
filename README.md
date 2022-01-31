@@ -1,2 +1,24 @@
-# kickstarter-analysis
-Performing analysis on Kickstarter data to uncover trends
+# Theater Kickstarter Campaign Analysis
+
+## Overview of Project
+
+### Purpose
+A continuation on our analysis of Kickstarter Data to help Louise plan a successful play campaign. At this point in the process Louise is completing fundraising and seeking to discover information on how different campaigns fared in relation to their launch dates and their funding goals. From studying the outcomes of Theater campaigns by their launch date we can determine if there are better and worse months of the year to begin a kickstarter specifically for this category. The analysis also reviews percentage chances for outcomes of plays based on the goal for their campaign. 
+
+## Analysis and Challenges
+
+### Analysis of Outcomes Based on Launch Date
+For the analysis of campaign outcomes based on their launch dates, we began by building a pivot table. We set the pivot table up to filter by parent category in order to specify which type of kickstarter campaigns we can research and also by year for the capability to check and see if there are trends over the data population's time period. For the rows criteria we chose the Date which the kickstarters began separated by months, then had our columns designate the outcome for each of the kickstarts. The values for the table were the count of the kickstarter's outcome. The following graph helps illustrate the results from the pivot table's criteria. Filtered specifically for Theater kickstarts, this shows the count of each campaign's outcome based on the month which they began fundraising. 
+![Theater Outcomes Based on Launch Date] ()
+### Analysis of Outcomes Based on Goals
+For the analysis of campaign outcomes based on their goals, we started by creating logical tiers to separate campaign goals found in the data population. To incorporate the outcome we determined the count for each possible outcome separated by the tiers of campaign goals. To help Louise research for her own campaign, we filtered this data to show results only for the play subcategory. To display our findings we calculated percentages for each potential outcome based on the total amount of projects and separated by the goal tiers. The following graph illustrates the observed percentages for Plays kickstarters outcome based on their goal set for fundraising. 
+![Plays Outcomes Based on Goal] ()
+### Challenges and Difficulties Encountered
+A potential challenge that could be encountered is trying to determine the criteria needed to be considered a valid kickstarter fundraising campaign. For instance, does the fundraising need to last a certain amount of days. Another challenge are the outside factors which can influence the outcome for each kickstarter datapoint. For example, if a campaign has a high level of popularity then it is more likely to receive donations, and the opposite can occur for campaigns that either do not have a backing or are unpopular to begin with. 
+
+## Results
+
+From the Theater Outcomes based on their launch date, we can conclude the best time period to launch a campaign is between the months of May-June. Ideally May and this window of the year shows the best likelihood of Theater kickstart campaigns succeeding opposed to another outcome. Another conclusion we can confirm is that the worst month to begin a kickstart campaign is December, as this had the least count of successful campaigns and was also the only month to have its successful count nearly match its failed count. 
+From the Play Outcomes based on Goals we can conclude there is a greater likelihood of the kickstarter to succeed with goal amounts up to the $14,999 threshold. Beyond this point there showed a 50 percent chance for the range between $15,000 to $19,999 of succeeding or failing. As the goal tiers rise the sample size of our population significantly decreased, although majority of the cases showed that a failure of the campaign was more likely. 
+One limitation of the data set is the goal amount for each campaign and how this directly affects the outcome. With a large dataset we rely on kickstarter organizers to set a reachable goal for their campaign, that is not impossible to meet or easily accomplished. The outcome results are a crucial data point and they can become almost pre-determined by the goal amount. Another limitation of the dataset are the various lengths which the kickstarter campaigns occurred. Without having a set time period for the campaign, the outcomes can also be influenced by how much time the fundraising campaigns were given. 
+Another possible graph we can create is to further filter our Outcomes Based on Launch Date by subcategory and specifically for Plays. This will help narrow down the Theater category to determine if there are any changes to the optimal launch date for Play kickstart campaigns. Another graph we can create as a follow up to our Play Outcomes Based on Goals graph, is one that focuses on goals that create majority of this subset meaning those under the a goal limit of $24,999. By setting this limit and adding in additional evenly set goal tiers, we can focus on the majority of datapoints recorded for Play kickstarters which helps us gain further insight for the subcategory. 
